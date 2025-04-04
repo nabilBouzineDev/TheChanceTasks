@@ -11,7 +11,7 @@ object FakeDataSource {
     val fakeInvalidWithLessSegmentsIPv4Address = "193.255.1"
     val fakeInvalidWithMoreSegmentsIPv4Address = "192.168.1.1.8"
     val fakeInvalidLeadingZerosIPv4Address = "093.255.01.12"
-    val fakeInvalidNonNumericValuesIPv4Address = "1f3.13D.1.12"
+    val fakeInvalidNonNumericValuesIPv4Address = "afd.13D.1.12"
     val fakeInvalidEmptySegmentIPv4Address = "163..1.12"
-    val fakeInValidFormatIPv4Address = "192,168;1;1"
+    val fakeInValidFormatIPv4Address = "192,168,1,1"
 }

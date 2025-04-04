@@ -7,7 +7,8 @@ package week_one.sudoku_checker
  * 3. No repeating values in subgrid of 3x3.
  * 4. Only numbers from 1 to 9 are allowed and '-' for empty cell.
  *
- * Otherwise, it's invalid.
+ * @param puzzle a character array that represent the puzzle solution
+ * @return true if the input is valid, false otherwise.
  */
 fun checkSudokuPuzzle(puzzle: Array<CharArray>): Boolean {
 
